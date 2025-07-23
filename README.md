@@ -1,5 +1,3 @@
-# my-guide-to-GRC
-```markdown
 # GRC Roadmap (Governance | Risk | Compliance)  
 This guide outlines a skill progression in GRC from junior engineer to senior expert.
 
@@ -108,18 +106,3 @@ This guide outlines a skill progression in GRC from junior engineer to senior ex
 - Mentor teams and champion GRC culture across the organization  
 
 ---
-
-## 📂 Suggested GitHub Repo Structure
-
-```
-
-/README.md              ← this roadmap
-/docs                   ← templates, OSCAL models, SoA samples
-/scripts                ← Ansible playbooks, InSpec profiles, PowerShell scripts
-/certs                  ← certification roadmap and tracking
-/projects               ← sample GRC projects and case studies
-
-```
-
-> **Pro tip**: Integrate a CI pipeline (GitLab CI, GitHub Actions) that runs your InSpec/OpenSCAP checks on every pull request and publishes OSCAL‑formatted reports. This makes your GRC repo both a living showcase of Policy‑as‑Code skills and a practical compliance toolkit.
-```
