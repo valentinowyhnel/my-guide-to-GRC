@@ -1,38 +1,78 @@
+## 📖 Key Terms & Definitions
+_A beginner-friendly glossary to familiarize you with fundamental GRC concepts._
+
+### 1. Frameworks & Models
+- **GRC (Governance, Risk & Compliance)**
+  - An integrated approach to ensure an organization’s processes meet business goals, manage risks, and comply with regulations.
+  - 📖 Learn more: [OCEG GRC Model](https://www.oceg.org/2013/04/what-is-grc/)
+
+- **COBIT 2019**
+  - A governance framework aligning IT services with business objectives.
+  - Provides guidance on roles, processes, and metrics.
+  - 📖 Details: [ISACA COBIT](https://www.isaca.org/bookstore/cobit)
+
+- **COSO ERM**
+  - A risk management framework for identifying and responding to business risks.
+  - Defines risk governance, assessment, and monitoring.
+  - 📖 Summary: [COSO ERM PDF](https://www.coso.org/Documents/COSO-ERM-Executive-Summary.pdf)
+
+- **NIST Cybersecurity Framework (CSF)**
+  - A voluntary set of best practices to improve cyber resilience.
+  - Organized into five functions: Identify, Protect, Detect, Respond, Recover.
+  - 📖 Guide: [NIST CSF](https://www.nist.gov/cyberframework)
 
 
-## 📖 Definitions & Key Terms
-A concise glossary of essential GRC terminology, with authoritative sources and links.
+### 2. Standards & Regulations
+- **ISO/IEC 27001**
+  - Specifies requirements to build and maintain an Information Security Management System (ISMS).
+  - Focuses on risk assessment and continual improvement.
+  - 📖 Standard: [ISO 27001](https://www.iso.org/standard/54534.html)
 
-| Term                   | Definition                                                                                                 | Reference / Link                                                                                   |
-|------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| **GRC**                | Governance, Risk, and Compliance framework – integrated approach to organizational control.                  | OCEG GRC Model: https://www.oceg.org/2013/04/what-is-grc/                                           |
-| **ISMS**               | Information Security Management System – systematic approach to managing information security risks.         | ISO 27000 Series: https://www.iso.org/isoiec-27001-information-security.html                       |
-| **ISO/IEC 27001**      | Standard specifying requirements for establishing, implementing, maintaining, and improving an ISMS.        | ISO: https://www.iso.org/standard/54534.html                                                        |
-| **ISO/IEC 27002**      | Code of practice providing best-practice controls for information security management.                     | ISO: https://www.iso.org/standard/54533.html                                                        |
-| **SoA**                | Statement of Applicability – document listing controls applied or excluded in an ISMS.                      | ISO/IEC 27001: https://www.iso.org/standard/54534.html                                              |
-| **Residual Risk**      | Risk remaining after implementing controls.                                                                 | NIST SP 800-30 Glossary: https://csrc.nist.gov/glossary                                                   |
-| **NIST SP 800‑53**     | Catalog of security and privacy controls for federal information systems; basis for risk assessment.       | NIST: https://csrc.nist.gov/publications/sp/800-53                                                    |
-| **NIST SP 800‑37**     | Guide for applying the risk management framework to federal information systems.                            | NIST: https://csrc.nist.gov/publications/sp/800-37                                                    |
-| **NIST CSF**           | Cybersecurity Framework – voluntary guidance based on existing standards to manage and reduce cybersecurity risk. | NIST CSF: https://www.nist.gov/cyberframework                                                     |
-| **Policy‑as‑Code**     | Definition and enforcement of policies through code for automated compliance checks.                        | OPA (Rego) docs: https://www.openpolicyagent.org/docs/latest/rego/                                    |
-| **OSCAL**              | Open Security Controls Assessment Language – structured format for representing control catalogs, profiles, and assessments. | NIST OSCAL: https://pages.nist.gov/OSCAL/                                                            |
-| **SCAP**               | Security Content Automation Protocol – standard for automated vulnerability management and compliance evaluation. | NIST SCAP: https://csrc.nist.gov/projects/security-content-automation-protocol                       |
-| **XCCDF**              | Extensible Configuration Checklist Description Format – XML schema for specifying security checklists.     | OASIS XCCDF: https://docs.oasis-open.org/xccdf/xccdf-core/v1.2/xccdf-core-v1.2.html                  |
-| **COBIT 2019**         | Framework for governance and management of enterprise IT, aligning IT with business goals.                   | ISACA: https://www.isaca.org/bookstore/cobit                                                                  |
-| **COSO ERM**           | Enterprise Risk Management – principles and framework for identifying, assessing, and managing risks.       | COSO ERM: https://www.coso.org/Documents/COSO-ERM-Executive-Summary.pdf                              |
-| **CIS Controls**       | Consensus set of prioritized cybersecurity best practices to defend against pervasive attacks.             | CIS Controls: https://www.cisecurity.org/controls/                                                    |
-| **Risk Appetite**      | Level and type of risk an organization is willing to pursue or retain to achieve its objectives.            | COSO ERM: https://www.coso.org/Documents/COSO-ERM-Executive-Summary.pdf                              |
-| **GDPR**               | EU regulation on data protection and privacy; sets requirements for processing personal data.               | EUR-Lex: https://eur-lex.europa.eu/eli/reg/2016/679/oj                                                 |
+- **ISO/IEC 27002**
+  - A companion code of practice offering best-practice security controls.
+  - Helps you choose and implement measures from ISO 27001.
+  - 📖 Code: [ISO 27002](https://www.iso.org/standard/54533.html)
 
-------------------------|---------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| **GRC**                | Governance, Risk, and Compliance framework – integrated approach to organizational control. | OCEG GRC Model: https://www.oceg.org/2013/04/what-is-grc/                             |
-| **ISMS**               | Information Security Management System – systematic approach to managing sensitive data.     | ISO 27000: https://www.iso.org/isoiec-27001-information-security.html                 |
-| **SoA**                | Statement of Applicability – document listing controls applied or excluded in an ISMS.       | ISO/IEC 27001: https://www.iso.org/standard/54534.html                                 |
-| **Residual Risk**      | Risk remaining after implementing controls.                                                  | NIST SP 800-30 Glossary: https://csrc.nist.gov/glossary                                 |
-| **Policy‑as‑Code**     | Definition and enforcement of policies through code for automated compliance checks.         | OPA (Rego) docs: https://www.openpolicyagent.org/docs/latest/rego/                     |
-| **OSCAL**              | Open Security Controls Assessment Language – structured format for compliance data.           | NIST OSCAL: https://pages.nist.gov/OSCAL/                                             |
-| **SCAP**               | Security Content Automation Protocol – standard for automated vulnerability and compliance.  | NIST SCAP: https://csrc.nist.gov/projects/security-content-automation-protocol         |
-| **XCCDF**              | Extensible Configuration Checklist Description Format – XML for security checklists.        | OASIS XCCDF: https://docs.oasis-open.org/xccdf/xccdf-core/v1.2/xccdf-core-v1.2.html    |
-| **CIS Controls**       | Consensus set of prioritized cybersecurity actions to protect organizations.                | CIS Controls: https://www.cisecurity.org/controls/                                     |
-| **Risk Appetite**      | Level of risk an organization is willing to accept to achieve objectives.                    | COSO ERM: https://www.coso.org/Documents/COSO-ERM-Executive-Summary.pdf                |
+- **GDPR**
+  - EU regulation on personal data protection (General Data Protection Regulation).
+  - Defines rights of individuals and obligations for data handlers.
+  - 📖 Text: [EUR-Lex GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj)
 
+
+### 3. Core Documents & Concepts
+- **ISMS (Information Security Management System)**
+  - A structured set of policies, processes, and tools to manage cybersecurity risks.
+  - Ensures consistent protection of sensitive data.
+  - 📖 Overview: [ISO/IEC 27000 Series](https://www.iso.org/isoiec-27001-information-security.html)
+
+- **Statement of Applicability (SoA)**
+  - A document listing which security controls you adopt, exclude, or adapt.
+  - Explains why each control is (or is not) in place.
+  - 📖 Reference: Section A.5 of ISO 27001
+
+- **Risk Appetite**
+  - The level of risk an organization is prepared to accept to meet objectives.
+  - Guides decision-making on which risks to treat or accept.
+  - 📖 Read: [COSO ERM document](https://www.coso.org/Documents/COSO-ERM-Executive-Summary.pdf)
+
+- **Residual Risk**
+  - The risk left after applying controls.
+  - Must be accepted, monitored, or further mitigated.
+  - 📖 Definition: [NIST SP 800-30 Glossary](https://csrc.nist.gov/glossary)
+
+
+### 4. Automation & Formats
+- **Policy‑as‑Code**
+  - Writing compliance policies in code so checks run automatically.
+  - Example: Open Policy Agent (OPA) uses the Rego language.
+  - 📖 Docs: [OPA Rego](https://www.openpolicyagent.org/docs/latest/rego/)
+
+- **OSCAL**
+  - A machine-readable format for security controls, profiles, and assessment results.
+  - Enables automation of compliance documentation.
+  - 📖 Details: [NIST OSCAL](https://pages.nist.gov/OSCAL/)
+
+- **SCAP & XCCDF**
+  - **SCAP**: Standard for vulnerability and configuration enumeration automation.
+  - **XCCDF**: XML schema to define checklists and benchmarks.
+  - 📖 Info: [NIST SCAP](https://csrc.nist.gov/projects/security-content-automation-protocol) | [OASIS XCCDF](https://docs.oasis-open.org/xccdf/xccdf-core/v1.2/xccdf-core-v1.2.html)
