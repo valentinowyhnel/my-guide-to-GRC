@@ -1,4 +1,4 @@
----
+
 
 ## 📖 Definitions & Key Terms
 A concise glossary of essential GRC terminology, with authoritative sources and links.
@@ -36,4 +36,3 @@ A concise glossary of essential GRC terminology, with authoritative sources and 
 | **CIS Controls**       | Consensus set of prioritized cybersecurity actions to protect organizations.                | CIS Controls: https://www.cisecurity.org/controls/                                     |
 | **Risk Appetite**      | Level of risk an organization is willing to accept to achieve objectives.                    | COSO ERM: https://www.coso.org/Documents/COSO-ERM-Executive-Summary.pdf                |
 
----
